@@ -6,5 +6,5 @@ Simple landing page of an IT company
 
 Used:
 -Bootstrap 5
--JQuery
+-jQuery
 -Slick
