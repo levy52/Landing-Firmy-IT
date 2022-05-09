@@ -56,11 +56,22 @@
     </header>
 
     <section>
+        <div class="container mt-1">
+            <div class="row">
+                <div class="col12">
+                    <div class="one-time">
+                        <img src="img/coding.jpg" alt="Coding">
+                        <img src="img/startup.jpg" alt="Startup">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container my-2 text-center" id="about">
             <div class="row">
                 <div class="col">
                     <hr>
-                    <h5>O nas</h5>
+                    <h4>O nas</h4>
                     <hr>
                 </div>
             </div>
@@ -99,7 +110,7 @@
             <div class="row">
                 <div class="col">
                     <hr>
-                    <h5>Co zyskujesz dzięki współpracy z nami</h5>
+                    <h4>Co zyskujesz dzięki współpracy z nami</h4>
                     <hr>
                 </div>
             </div>
@@ -128,7 +139,7 @@
             <div class="row">
                 <div class="col">
                     <hr>
-                    <h5>Nasi klienci</h5>
+                    <h4>Nasi klienci</h4>
                     <hr>
                 </div>
             </div>
@@ -140,19 +151,23 @@
 
                     <div class="carousel">
                         <div>
-                            <img src="img/6.jpg" alt="" width="200" height="auto">
+                            <img src="img/6.jpg" alt="" width="130" height="auto">
                         </div>
                         <div>
-                            <img src="img/7.jpg" alt="" width="200" height="auto">
+                            <img src="img/7.jpg" alt="" width="130" height="auto">
                         </div>
                         <div>
-                            <img src="img/8.jpg" alt="" width="200" height="auto">
+                            <img src="img/8.jpg" alt="" width="130" height="auto">
                         </div>
                         <div>
-                            <img src="img/9.jpg" alt="" width="200" height="auto">
+                            <img src="img/9.jpg" alt="" width="130" height="auto">
                         </div>
-
-
+                        <div>
+                            <img src="img/10.jpg" alt="" width="130" height="auto">
+                        </div>
+                        <div class="mt-4">
+                            <img src="img/11.png" alt="" width="130" height="auto">
+                        </div>
                     </div>
 
                 </div>
@@ -161,9 +176,9 @@
 
         <div class="container text-center" id="contact">
             <div class="row">
-                <div class="col">
+                <div class="col-sm-12">
                     <hr>
-                    <h5>Napisz do nas</h5>
+                    <h4>Napisz do nas</h4>
                     <hr>
                 </div>
             </div>
@@ -171,29 +186,24 @@
 
         <div class="container mb-2">
             <div class="row">
-                <div class="mb-3">
+                <div class="col-sm-12 col-lg-6 mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Imię i nazwisko</label>
                     <input type="username" class="form-control" id="exampleFormControlInput1"
                         placeholder="Wpisz swoje imię i nazwisko">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Adres e-mail</label>
+                    <label for="exampleFormControlInput1" class="form-label mt-1">Adres e-mail</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
                         placeholder="Wpisz adres e-mail">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Wpisz swoją wiadomość</label>
+                    <label for="exampleFormControlTextarea1" class="form-label mt-1">Wpisz swoją wiadomość</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="form-check ms-3 pb-1">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
+                    <input class="form-check-input mt-2" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label mt-1" for="flexCheckDefault">
                         Wyrażam zgodę na przetwarzanie danych
                     </label>
+                    <button type="button" class="col-12 btn btn-dark mt-1">Wyślij wiadomość </button>
                 </div>
-
-                <button type="button" class="col-6 btn btn-dark mx-auto ">Wyślij wiadomość</button>
-
+                <div class="col-lg-6 d-none d-lg-block px-4">
+                    <img src="img/contact.jpg" class="img-fluid rounded-3" alt="contact">
+                </div>
             </div>
         </div>
 
@@ -201,9 +211,10 @@
     </section>
 
     <footer>
-        <div class="container">
+        <hr>
+        <div class="container text-sm-center">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 pb-1">
                     <span class="footer">
                         Lorem Ipsum <br>
                         ul. Lorem 5 <br>
