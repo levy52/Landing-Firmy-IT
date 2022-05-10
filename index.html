@@ -56,12 +56,18 @@
     </header>
 
     <section>
-        <div class="container mt-1">
+        <div class="container-fluid mt-1">
             <div class="row">
-                <div class="col12">
+                <div class="col">
                     <div class="one-time">
-                        <img src="img/coding.jpg" alt="Coding">
-                        <img src="img/startup.jpg" alt="Startup">
+                        <picture>
+                            <source srcset="img/coding2.jpg" media="(max-width: 768px)">
+                            <img src="img/coding.jpg" alt="coding">
+                        </picture>
+                        <picture>
+                            <source srcset="img/startup2.jpg" media="(max-width: 768px)">
+                            <img src="img/startup.jpg" alt="startup">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -78,31 +84,30 @@
         </div>
         <div class="container my-2">
             <div class="row">
-                <div class="col-md-3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id bibendum turpis. Fusce
+                <div class="col-md-6 order-sm-0 align-self-center">
+                    <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id bibendum
+                        turpis. Fusce
                         hendrerit, dui dignissim auctor pellentesque, lorem nisl hendrerit odio, eu tempus sem neque
                         quis leo. Vestibulum sit amet congue elit.
                     </p>
                 </div>
 
-                <div class="col-md-3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id bibendum turpis. Fusce
-                        hendrerit, dui dignissim auctor pellentesque, lorem nisl hendrerit odio, eu tempus sem neque
-                        quis leo. Vestibulum sit amet congue elit.
-                    </p>
-                </div>
-
-                <div class="col-md-3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id bibendum turpis. Fusce
-                        hendrerit, dui dignissim auctor pellentesque, lorem nisl hendrerit odio, eu tempus sem neque
-                        quis leo. Vestibulum sit amet congue elit.
-                    </p>
-                </div>
-
-
-                <div class="col-md-3">
+                <div class="col-md-6 mb-3 order-sm-1">
                     <img src="img/1.jpg" alt="Coding" class="img-fluid">
                 </div>
+
+                <div class="col-md-6 order-sm-3 order-md-2">
+                    <img src="img/1a.jpg" alt="Office" class="img-fluid">
+                </div>
+
+                <div class="col-md-6 order-sm-2 order-md-3 align-self-center">
+                    <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id bibendum
+                        turpis. Fusce
+                        hendrerit, dui dignissim auctor pellentesque, lorem nisl hendrerit odio, eu tempus sem neque
+                        quis leo. Vestibulum sit amet congue elit.
+                    </p>
+                </div>
+
             </div>
         </div>
 
@@ -119,17 +124,17 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/2.jpeg" alt="" class="img-fluid">
+                    <img src="img/2.jpeg" alt="" class="img-fluid images">
                     <p class="fw-bold text-primary"> Dostęp do wykwalifikowanych talentów </p>
                 </div>
 
                 <div class="col-md-4">
-                    <img src="img/3.jpeg" alt="" class="img-fluid">
+                    <img src="img/3.jpeg" alt="" class="img-fluid images">
                     <p class="fw-bold text-primary"> Dostęp do wiedzy i technologii </p>
                 </div>
 
                 <div class="col-md-4">
-                    <img src="img/4.jpeg" alt="" class="img-fluid">
+                    <img src="img/4.jpeg" alt="" class="img-fluid images">
                     <p class="fw-bold text-primary"> Oszczędność czasu </p>
                 </div>
             </div>
@@ -148,7 +153,10 @@
         <div class="container">
             <div class="row">
                 <div class="col12">
-
+                    <div class="col12 text-center">
+                        <h6>Współpracujemy z wieloma klientami, którzy polecają nasze usługi. Nie czekaj i zacznijmy
+                            działać wspólnie!</h6>
+                    </div>
                     <div class="carousel">
                         <div>
                             <img src="img/6.jpg" alt="" width="130" height="auto">
@@ -214,7 +222,7 @@
         <hr>
         <div class="container text-sm-center">
             <div class="row">
-                <div class="col-sm-6 pb-1">
+                <div class="col-sm-6 mb-1 mb-sm-0">
                     <span class="footer">
                         Lorem Ipsum <br>
                         ul. Lorem 5 <br>

@@ -24,6 +24,7 @@
 #back-to-top:hover {
   background-color: rgb(0, 83, 151);
   border-radius: 12px;
+  transition: 3s;
 }
 
 h4 {
@@ -33,5 +34,11 @@ h4 {
 }
 
 .one-time img {
-  height: 40vw;
+  width: 100vw;
+  height: 100vh;
+  max-width: 2560px;
+}
+
+.images:hover {
+  box-shadow: 0px 0px 40px 40px rgba(84, 85, 91, 0.25);
 }
